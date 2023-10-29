@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilo Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Edu+TAS+Beginner&family=Josefin+Sans:wght@100&family=Libre+Baskerville&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Fatih Emre Barutçu</h1>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#yetenekler">Hakkımda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <img src="./img/profil.jpeg" alt="emre" class="image">
+        <div class="description">
+            <h1><span class="span1">Merhaba</span><br> Ben <span class="span2">Emre</span></h1>
+            <p>
+                22 yaşındayım.Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3.sınıf öğrencisiyim. Teknoloji dünyasındaki hızlı gelişmeleri yakından takip ediyor ve yeni şeyler öğrenmeye her zaman açığım. Ayrıca, programlama topluluğuna katkıda bulunmayı ve deneyimlerimi diğerlerine aktarmayı seviyorum. Kendi projelerimi oluşturmak ve farklı teknolojileri bir araya getirerek yenilikçi çözümler geliştirmek benim için heyecan verici bir yolculuk.
+            </p>
+               
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="yetenekler" class="yetenekler">
+        <h2>Yetenekler</h2>
+        <div class="yetenek">
+            <p>HTML</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="yetenek">
+            <p>CSS</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="yetenek">
+            <p>JavaScript</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 45%;"></div>
+            </div>
+        </div>
+        <div class="yetenek">
+            <p>Java</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 45%;"></div>
+            </div>
+        </div>
+        <div class="yetenek">
+            <p>C#</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 45%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="contact" id="contact">
+        <section class="iletisim" id="iletisim">
+            <div class="genel">
+            <div class="contact-form">
+              <h2>İletişim Formu</h2>
+              <form>
+                <div class="form-group">
+                  <label for="name">İsim:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-posta:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefon Numarası:</label>
+                  <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                  <label for="message">Mesajınız:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Gönder</button>
+              </form>
+            </div>     
+          </div> 
+        </div>
+          </section>
+          <div class="footer">
+            <div id="iletisim">
+                <a href="https://github.com/senseiusal"  target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p>Tüm Bilgiler koruma altındadır ©</p>
+        </div>
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    margin: 20px 20px 0px 20px;
+    font-size: 2.5rem; 
+}
+
+.span1{
+    font-size: 1rem;
+    color: dimgrey;
+}
+
+.description{
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+p{
+    margin: 20px 20px 0px 20px;
+    font-size: 1.25rem;
+}
+
+body{
+    background-color: wheat;
+}
+
+.home{
+    height:500px;
+}
+.span2{
+    font-weight: bold;
+}
+
+.image{
+    float: right;
+    display: block;
+    border-radius: 50%;
+    margin-right: 80px;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin:0;
+    background-color: rgba(86, 110, 135, 0.69);  
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul li a {
+    padding-left: 10px;
+    color: black;
+}
+
+li{
+    list-style: none;
+    padding-right: 40px ;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.yetenekler{
+    margin: 0;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+   background-color: white;
+}
+
+.yetenek>h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.yetenek {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 80%;
+    background-color: #4caf50;
+    animation: animasyon1 4s ease-in-out;
+}
+
+@keyframes animasyon1 {
+    0% {
+        width: 0;
+    }
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+  }
+  .genel {
+    background-color: var(--extra-light);
+    padding: 30px 30px;
+  }
+  .footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #000000;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #fff;
+  }
+
